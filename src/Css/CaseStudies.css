@@ -1,0 +1,143 @@
+.caseStudies{
+    text-align: center;
+    background: rgba(247, 247, 250, 1);
+}
+.topSection{
+    padding: 89px;
+}
+.designedHeading h3{
+    font-size: 28px;
+    margin-top: 66px;
+    margin-bottom: 15px;
+}
+.cases{
+    display: flex;
+    margin-top: 81px;
+    /* margin-bottom: 35px; */
+    max-width: 1232px;
+    height: 416px;
+}
+.designedImage{
+    max-height: 416px;
+    max-width: 601px;
+}
+.designedImage img{
+    height: 100%;
+    width: 100%;
+
+}
+.designedtext span{
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.casesHandled{
+    padding: 51px 66px ;
+}
+.readMore{
+    display: flex;
+    margin-top: 60px;
+    justify-content: end;
+    font-size: 14px;
+    background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rightIcon{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.rightIcon path {
+    fill:#d54697  ;
+
+}
+.moreCases{
+    text-align: end;
+    font-weight: 700;
+    font-size: 20px;
+    background: linear-gradient(225deg, #F76680 0%, #57007B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding:41px 104px;
+}
+.moreCases p{
+    background: linear-gradient(225deg, #F76680 0%, #57007B 100%) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+@media (max-width:1400px) {
+    .designedHeading h3 {
+        font-size: 28px;
+        margin-top: 19px;
+    }
+    
+
+}
+@media (max-width:1200px) {
+    .designedHeading h3 {
+        font-size: 23px;
+        margin-top: 0px;
+    }
+    .designedtext span {
+        font-size: 12px;
+    }
+    .casesHandled {
+        padding: 36px 36px;
+    }
+    /* .cases{
+        display: flex;
+        flex-direction: column
+    } */
+}
+@media (max-width:991px) {
+
+    .cases{
+        display: flex;
+        flex-direction: column;
+     
+}   
+.designedImage img{
+    height:auto;
+    width: 100%;
+    overflow-y: hidden;
+} 
+}
+@media (max-width:786px) {
+    .cases{
+        height: 100%;
+    }
+    .cases{
+        display: flex;
+        flex-direction: column;
+    }    
+    
+}
+@media (max-width:640px){
+    .moreCases{
+        padding: 0;
+    }
+    .designedHeading h3 {
+        font-size: 21px;
+        margin-top: 0px;
+    }
+    .designedtext span{
+        font-size: 12px;
+    }
+    .readMore {
+        margin-top: 14px;
+    }
+    .casesHandled {
+        padding: 19px 0px;
+    }
+    .topSection{
+        padding: 0;
+    }
+}
+@media (max-width:480px) {
+    .cases{
+        margin-top: 30px;
+    }
+    
+}

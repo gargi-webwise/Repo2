@@ -1,0 +1,215 @@
+.homeheading {
+  font-size: 53px;
+}
+.home {
+
+    position: relative;
+    top: 95.5px;
+    padding: 0 15px;
+    left: 0;
+}
+.homeProduct {
+  font-size: 45px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #de4396 0%, rgba(13, 28, 159, 0) 100%);
+  /* background: linear-gradient(180deg, #DE4396 0%, rgba(13, 28, 159, 0) 100%); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.homeTeams {
+  background: linear-gradient(225deg, #f7666f 0%, #406aff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.homeText {
+  font-size: 18px;
+}
+.letsStartbutton {
+  width: 175px;
+  height: 52px;
+  border-radius: 5px;
+  padding: 15px 30px;
+  gap: 10px;
+  box-shadow: 0px 4px 49px 0px rgba(0, 0, 0, 0.15);
+  background: rgba(61, 99, 234, 1);
+  color: #fff;
+  font-size: 14px;
+  margin-top: 75px;
+  cursor: pointer;
+}
+.letsStartbutton:hover{
+  color: #406aff;
+  background: #fff;
+  border: 1px solid #406aff;
+  font-weight: 600;
+}
+.bannerDetails{
+  /* align-items: center; */
+  max-width: 531px;
+  margin-right: 20px;
+  margin-left: 60px;
+}
+.homeBannerImg {
+  height: 546px;
+  max-width: 614px;
+}
+.homeBannerImage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.services {
+  background-color: #f9f9ff;
+  position: relative;
+}
+.home::before {
+  content: "";
+  background-image: url("https://res.cloudinary.com/dixfg1bvv/image/upload/v1728882032/Ellipse_180_lldh7a.png");
+
+  position: absolute;
+  top: 450px;
+  left: 380px;
+  background-repeat: no-repeat;
+  height: 72px;
+  width: 72px;
+  z-index: -1;
+}
+.services::before {
+  content: "";
+  background-image: url("https://res.cloudinary.com/dixfg1bvv/image/upload/v1728882032/Ellipse_180_lldh7a.png");
+  position: absolute;
+  left: 380px;
+  top: 500px;
+  background-repeat: no-repeat;
+  height: 72px;
+  width: 72px;
+  z-index: -1;
+}
+.workingTeam::before {
+  content: "";
+  background: url("https://res.cloudinary.com/dixfg1bvv/image/upload/v1728882032/Ellipse_180_lldh7a.png");
+  position: absolute;
+  left: 600px;
+  top: 158px;
+  background-repeat: no-repeat;
+  height: 72px;
+  width: 72px;
+  z-index: 1;
+}
+.workingTeam {
+  padding-top: 0px;
+  padding-bottom: 60px;
+  position: relative;
+}
+@media (max-width: 1400px) {
+  .bannerDetails{
+    width: 38%;
+  }
+  .bannerHeading h1{
+    font-size: 35px;
+  }
+
+}
+@media (max-width: 1200px) {
+  .letsStartbutton {
+    margin-top: 27px;
+  }
+  .homeheading{
+    font-size: 38px;
+  }
+  .bannerHeading h1{
+    font-size: 35px;
+  }
+  .homeProduct{
+    font-size: 35px;
+  }
+}
+@media  (max-width:1080px) {
+    .workingTeam{
+        top: 0;
+    } 
+    .workingTeam::before {
+        top: 149px;
+      }
+      .homeheading{
+        font-size: 35px;
+      }
+      .bannerHeading h1{
+        font-size: 30px;
+      }
+      .homeProduct{
+        font-size:30px;
+      }
+    
+}
+@media (max-width: 1200px) {
+  .homeheading {
+    font-size: 40px; 
+  }
+  .homeProduct {
+    font-size: 36px; 
+  }
+  .letsStartbutton {
+    margin-top: 50px; }
+  .bannerDetails {
+    margin-left: 40px;  
+     margin-right: 10px; }
+}
+
+@media (max-width: 991px) {
+  .bannerDetails{
+    width: 100%;
+  }
+  .home::before {
+    top: 350px;   
+     left: 50%; 
+    transform: translateX(-50%); 
+  }
+  .services::before {
+    top: 400px;     left: 50%; 
+    transform: translateX(-50%); 
+  }
+  .workingTeam::before {
+    left: 50%; 
+    transform: translateX(-50%); 
+    top: 190px;   }
+}
+
+@media (max-width: 768px) {
+  .homeheading {
+    font-size: 35px; 
+  }
+  .homeProduct {
+    font-size: 30px; 
+  }
+  .homeText {
+    font-size: 16px; 
+  }
+  .letsStartbutton {
+  
+     font-size: 12px; 
+    margin-top: 40px; }
+}
+
+@media (max-width: 576px) {
+  .home::before, .services::before, .workingTeam::before {
+   display: none;
+  }
+
+  .letsStartbutton {
+    width: 41%;
+    font-size: 14px;
+}
+.bannerDetails {
+  margin-left: 11px;
+
+}
+}
+@media (max-width:480px) {
+  .letsStartbutton {
+    width: 41%;
+    font-size: 12px;
+    font-weight: 600;
+}
+  
+}

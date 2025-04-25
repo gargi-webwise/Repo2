@@ -1,0 +1,137 @@
+.softwareTeamImage {
+  height: 460px;
+  max-width: 600px;
+}
+
+.softwareTeam img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.softwareDevelopment {
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.softwareLeading {
+  top: 25px;
+  font-size: 35px;
+  position: relative;
+}
+.softwareDevelopmentTeam {
+  top: 30px;
+  font-size: 18px;
+  position: relative;
+}
+.aboutTeam {
+  padding: 20px 15px;
+}
+.moreInfo {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(87, 0, 123, 1);
+  top: 51px;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.arrowIcon {
+  margin-left: 10px;
+}
+.softwareDetails {
+  padding-top: 50px;
+  position: relative;
+}
+.softwareTeam::before{
+  content: "";
+  background: url("https://res.cloudinary.com/dixfg1bvv/image/upload/v1728914295/Group_dei4io.png");
+  height: 51.93px;
+  width: 53.43px;
+  position: absolute;
+  top: 190px;
+  right: 340px;
+  background-color: #80808082;
+  opacity: 0.7;
+  border-radius: 50%;
+  padding: 29px;
+  cursor: pointer;
+}
+@media(max-width:1400px){
+  .softwareTeam::before{
+    top: 190px;
+    right: 270px;
+  }}
+@media(max-width:1080px){
+  .softwareTeam::before{
+    top: 190px;
+    right: 270px;
+  }
+  .softwareLeading{
+    top: 5px;
+  }
+  .softwareDevelopmentTeam {
+    top: 0;}
+
+  .softwareDevelopmentTeam p{
+    font-size: 16px;
+  }
+  .moreInfo{
+    top: 10px;
+    padding: 2px;
+  }
+  .softwareDetails{
+    top: 45px  ;
+  }
+  .softwareTeamImage {
+    height: 460px;
+    width: 43%;
+  }
+
+}
+@media (max-width:991px){
+  .softwareTeam::before{
+    top: 413px;
+    right: 392px;
+}
+.softwareTeamImage  {
+  height: 100%;
+  width: 100%;
+  /* object-fit: cover; */
+}
+.softwareDevelopmentTeam p {
+  font-size: 15px;
+}
+.aboutTeam{
+  max-width: 100%;
+}
+}
+@media (max-width:767px) {
+  .softwareTeamImage {
+    height: 390px;
+    width: 100%;
+} 
+}
+@media (max-width:700px) {
+  .softwareTeamImage {
+    height: 390px;
+    width: 100%;
+} 
+}
+@media (max-width:480px){
+  .softwareTeam::before{
+    top: 413px;
+    right: 165px;
+}
+.workingTeam {
+  top: -54px;
+}
+.softwareDetails{
+  padding-top: 0;
+}
+}
+@media (max-width:375px) {
+  .softwareDevelopmentTeam p{
+    font-size: 12px;
+  }
+  .softwareDetails{top: 0;}
+}

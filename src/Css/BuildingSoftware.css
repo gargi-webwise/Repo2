@@ -1,0 +1,212 @@
+.creating {
+  text-align: center;
+  padding-top: 79px;
+}
+.verticalLine {
+  border-left: 6px;
+  height: 100px;
+  /* background: linear-gradient(180deg, #de4396 0%, rgba(13, 28, 159, 0) 100%) */
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  width: 5px;
+  height: 87px;
+}
+.buildSoftware {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  /* gap: 15px; */
+}
+.greatSoftware{
+  width: 435px;
+  text-align: justify;
+  padding-left: 15px;
+}
+.greatSoftware p {
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+}
+.reviewer {
+  display: flex;
+  margin-top: 25px ;
+  p {
+    margin-bottom: 0;
+  }
+}
+.greatSoftwareImage {
+  max-width: 575px;
+  height: 473px;
+  position: relative;
+  /* margin-left: 124px; */
+}
+.greatSoftwareImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+.reviewerImage{
+    height: 41px;
+    max-width: 41px;
+    /* margin: 25px 5px; */
+}
+.reviewerName{
+    margin-left: 5px;
+    margin-top: -5px;
+}
+.creatingsoft{
+  display: flex;justify-content: space-between; margin-top:95px ;
+}
+.teamScale{
+  margin-top: 20px
+}
+.ReviewerPost{
+  opacity: .5;
+}
+.teamScaleText{
+  margin-top: 30px;
+  font-size: 18px;
+  p{
+    margin-bottom: 2rem;
+  }
+}
+.image1::after{
+  content: "";
+  background: url("https://res.cloudinary.com/dixfg1bvv/image/upload/v1729082166/Ellipse_184_suhv9m.png");
+  height: 64.48px;
+  width: 64.48px;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+  top: 444px;
+  left: 217px;
+
+}
+.image1::before{
+  content: "";
+  background: url("https://res.cloudinary.com/dixfg1bvv/image/upload/v1729142516/Ellipse_177_xpwsix.png");
+  height: 64.48px;
+  width: 64.48px;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+  top: -18px;
+  left: -12px;
+}
+.image2::before{
+  content: "";
+  background: url("https://res.cloudinary.com/dixfg1bvv/image/upload/v1729142516/Ellipse_177_xpwsix.png");
+  height: 64.48px;
+  width: 64.48px;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+  top: 406px;
+    left: 98px;
+}
+.image2::after{
+  content: "";
+  background: url("https://res.cloudinary.com/dixfg1bvv/image/upload/v1729082166/Ellipse_184_suhv9m.png");
+  height: 64.48px;
+  width: 64.48px;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+  top: -7px;
+  right: -39px;
+
+}
+.image3::after{
+  content: "";
+  background: url("https://res.cloudinary.com/dixfg1bvv/image/upload/v1729082166/Ellipse_184_suhv9m.png");
+  height: 64.48px;
+  width: 64.48px;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+  top: -7px;
+  right: 115px;
+
+}
+.image3::before{
+  content: "";
+  background: url("https://res.cloudinary.com/dixfg1bvv/image/upload/v1729142516/Ellipse_177_xpwsix.png");
+  height: 64.48px;
+  width: 64.48px;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: -1;
+  top: 412px;
+    left: -8px;
+}
+.softwareCreateCompo{
+  margin-bottom: 119px;
+}
+@media (max-width:991px) {
+  .teamScaleText{
+    font-size: 13px;
+    p{
+      margin-bottom: 1rem ;
+    }
+  }
+  .greatSoftware p{
+    font-size:13px ;
+  }
+  .verticalLine{
+    height: 65px;
+  }
+  .reviewer{
+    margin-top: 0;
+  }
+  .greatSoftwareImage{
+    height: auto;
+  }
+  
+.image1::after{
+  top: 265px;
+}
+.creatingsoft{
+  margin-top: 28px;
+}
+.image2::before, .image3::before {
+top: 233px; 
+}
+.teamScale{
+  margin-top: 0;
+
+}
+
+}
+
+@media (max-width: 768px) {
+  .buildSoftware {
+    display: flex;
+  }
+  .greatSoftware {
+    width: 95%; 
+  }
+  .creatingsoft {
+    flex-direction: column; 
+  }
+  .reviewer {
+    flex-direction: row; 
+    margin-bottom: 15px;
+  }
+  .teamScaleText {
+    font-size: 16px;
+  }
+  .image1::after, .image1::before, .image2::after, .image2::after, .image2::before,.image3::after, .image3::before{
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .greatSoftware p {
+    font-size: 14px; 
+  }
+  .softwareCreateCompo {
+    margin-bottom: 57px;
+  }
+}

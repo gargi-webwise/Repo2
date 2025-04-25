@@ -1,0 +1,74 @@
+.approach{
+    text-align: center;
+    padding: 71px 80px;
+}
+.designsAndApproach{
+    background: #f7f7fa;
+
+}
+.worksDone{
+    background-color: #fff;
+    max-width: 604px;
+    height: 237px;
+    margin: 24px;
+    /* display: flex; */
+}
+.approachesMade{
+    padding: 33px;
+    display: flex;
+
+}
+.approachImages{
+    margin: 12.5px;
+    height: 53px;
+    width: 59px;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+.approachImages img{
+    height: 100%;
+    padding: 5px;
+    border-radius: 20px;
+    /* width: 100%; */
+}
+.approachText{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.approachHeading h4 {
+    font-size: 20px;
+    margin-top: 11px;
+}
+.approachText1{
+   
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+}
+.approchesHeld{
+    margin-bottom:98px ;
+}
+@media (max-width:991px) {
+    .approachesMade{
+         padding: 15px 15px;
+    }
+    .approachHeading h4{
+        font-size: 16px;
+    }
+    .approachText{
+        font-size: 12px;
+    }
+    .worksDone{
+        height: auto;
+    }
+    
+}
+@media (max-width:480px) {
+    .approach {
+        padding: 26px 52px;
+    }
+    .approchesHeld{
+        margin-bottom: 0;
+    }
+    
+    
+}

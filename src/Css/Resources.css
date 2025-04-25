@@ -1,0 +1,36 @@
+.resources{
+    text-align: center;
+    padding-top: 43px;
+    margin-bottom: 44px;
+}
+.slick-slide{
+    opacity: 1;
+}
+.resourceSlider{
+    height: 254px;
+    max-width: 315px;
+}
+.resourceData{
+    width: 254px;
+    height: 75px;
+    margin-top: 10px;
+}
+.resourceData p{
+    font-size: 16px;
+    line-height: 25px;
+    text-align:start;
+}
+.more{
+    right: 69px;
+    margin-top: 10px;
+    color: rgba(87, 0, 123, 1);
+    text-align: right;
+    position: relative;
+    cursor: pointer;
+}
+@media (max-width:480px) {
+    .resouceProvided{
+        padding-left: 65px;
+    }
+    
+}

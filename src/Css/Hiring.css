@@ -1,0 +1,124 @@
+.hiring {
+  background: linear-gradient(225deg, #f1f1f5 0%, #e4ecf7 100%);
+  padding: 84px;
+  max-width: 1230px;
+  height: 285px;
+  border-radius: 10px;
+  display: flex;
+}
+.hiringHeading {
+    h2{
+        font-weight: 700;
+    }
+    span{
+        font-weight: 700;
+    }
+}
+.hiringOuter {
+  padding: 74.5px;
+}
+.hiringDevelopers {
+  max-width: 531px;
+}
+.btnHire {
+  background: linear-gradient(225deg, #ffc656 0%, #f16063 100%);
+  width: 262px;
+  height: 57px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 26px;
+
+  margin-left: 269px;
+}
+.hiringBtn {
+  position: relative;
+}
+.hiringBtn::before {
+  content: "";
+  background: url("https://res.cloudinary.com/dixfg1bvv/image/upload/v1729171571/Group_38_vmqimk.png");
+  position: absolute;
+  width: 119.46px;
+  height: 40px;
+  right: 97px;
+  top: -32px;
+}
+.hiringBtn::after {
+  content: "";
+  background: url("https://res.cloudinary.com/dixfg1bvv/image/upload/v1729171570/Group_39_dm9mfr.png");
+  position: absolute;
+  width: 119.46px;
+  height: 40px;
+  right: 97px;
+  top: 100px;
+}
+@media (max-width: 1440px) {
+  .hiringHeading h2{
+    font-size: 30px;
+  }
+}
+@media (max-width: 1440px) {
+    .hiringHeading h2 {
+        font-size: 27px;
+    }
+}
+@media (max-width:992px) {
+    .btnHire{
+        margin-left: 0;
+    }
+    .hiring{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hiringBtn::after, .hiringBtn::before {
+        display: none;
+    }
+    
+}
+@media (max-width:640px) {
+    .hiringHeading h2{
+        font-size: 22px;
+    }
+    .hiring{
+        padding: 30px;
+    }
+    .hiringBtn{
+        padding: 30px;
+    }
+}
+@media (max-width:480px) {
+  .hiringBtn{
+    margin-left: 25px;
+  }
+  .hiringHeading h2 {
+    font-size: 20px;
+}
+.hiringBtn {
+  margin-left: 20px;
+}
+.techStack ul li {
+  font-size: 14px;}
+}
+@media (max-width:370px) {
+  .btnHire{
+    width: 156px;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .hiringBtn{
+    padding: 5px;
+  }
+  .hiring{
+    padding: 10px;
+  }
+  
+}
+@media (max-width: 360px) {
+  .techStack ul li {
+      font-size: 11px;
+  }
+}
