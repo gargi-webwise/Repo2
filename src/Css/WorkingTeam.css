@@ -8,8 +8,8 @@
   
 }
 .btnLeft , .btnRight {
-  width: 20px;
-  height: 10px;
+  width: 16px;
+  height: 16px;
   gap: 0px;
   border: 2px solid rgba(87, 0, 123, 1);
   border-radius: 50%;
